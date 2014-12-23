@@ -98,3 +98,6 @@ input.ng-invalid {
 .bold {
   font-weight: bold;
 }
+.chkbox-adjustment {
+  margin-left: 15px;
+}

@@ -145,7 +145,7 @@
                     element.attr('aa-checkbox', '');
                     element.attr('type', 'checkbox');
 
-                    wrap(element, '<div class="form-group ' + attrs.aaFgClass + '" ' + attrs.ngShow + '><div class="' + attrs.lblClass + ' ' + attrs.lblCol + '"></div><div class="checkbox ' +
+                    wrap(element, '<div class="form-group ' + attrs.aaFgClass + '" ' + attrs.ngShow + '><div class="' + attrs.lblClass + ' ' + attrs.lblCol + '"></div><div class="checkbox chkbox-adjustment ' +
                         attrs.aaClass + ' ' + attrs.aaCol + '"><input/></div></div>');
                 };
             }

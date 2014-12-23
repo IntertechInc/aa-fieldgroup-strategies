@@ -2,11 +2,11 @@
     <h1>Angular Agility Field Group Strategies Test</h1>
 </div>
 <div aa-configured-form validation-config="formconfig" class="form-horizontal" ng-form="aatest">
-    <input aa-field-group="model.BirthDate" aa-field-group-strategy="datePicker" />
     <input aa-field-group="model.IsActive" aa-field-group-strategy="checkBox" />
     <input aa-field-group="model.Salary" aa-field-group-strategy="currency" />
+    <input aa-field-group="model.BirthDate" aa-field-group-strategy="datePicker" />
     <input aa-field-group="model.Percentage" aa-field-group-strategy="percent" />
-    <input aa-field-group="model.State" aa-field-group-strategy="select2" config="stateSingleConfig" />
     <input aa-field-group="model.Gender" aa-field-group-strategy="radio" options="radioList" />
+    <input aa-field-group="model.State" aa-field-group-strategy="select2" config="stateSingleConfig" />
     <button aa-submit-form="submit()" type="submit" class="btn btn-primary">Submit</button>
 </div>
